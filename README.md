@@ -54,6 +54,10 @@ python train_kidney.py
 ### Testing & Evaluation
 Testing is integrated into the training scripts and runs automatically after the model finishes training by loading the best checkpoint.
 For instance, in train_brain.py, the evaluate_test_with_metrics function will calculate Dice, IoU, Precision, HD95, and MAE.
+```bash
+# For Brain Tumor Segmentation
+python test_brain.py
+```
 
 ## Checkpoint
 We do not upload model checkpoint files in this repo.
